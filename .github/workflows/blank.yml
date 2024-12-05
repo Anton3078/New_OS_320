@@ -17,10 +17,7 @@ jobs:
         uses: appleboy/telegram-action@master
         with:
           to: ${{secrets.TELEGRAM_TO}}
-          token: ${{secrets.TELEGRA_TOKEN}}
+          token: 7549151423:AAHDeCkAOc9idbYAIM1ehO3ulqJ7kXMmEP0
           message: |
-            ${{github.actor}} created comit:
-            Commit message: ${{github.event.commits[0].message}}
-            Repository: ${{github.repository}}
-            See chagnges: https://githu.com/${{github.repository}}/commit/${{github.sha}}
+            Колмаков Петухов
           
